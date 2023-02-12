@@ -9,8 +9,8 @@
  * const array = ['val1','val2',...]
  * */
 
-let array1 = new Array('val1','val2')
-console.log(array1)
+let array1 = new Array('val1','val2');
+console.log(array1);
 
-const array2 = ['val1','val2']
-console.log(array2)
+const array2 = ['val1','val2'];
+console.log(array2);

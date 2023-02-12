@@ -8,11 +8,11 @@
  * nará el valor que se encuentra en dicha posición.
  * */ 
 
-const array = ['Hola! Soy el valor alojado en la posición 0','Hola! Soy el valor alojado en la posición 1','Hola! Soy el valor alojado en la posición 2']
+const array = ['Hola! Soy el valor alojado en la posición 0','Hola! Soy el valor alojado en la posición 1','Hola! Soy el valor alojado en la posición 2'];
 
-console.log(array[0])
-console.log(array[1])
-console.log(array[2])
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
 
 /**
  * Otra manera de recorrer los elementos de un array sin tener que especificar el valor del índice es usando el bucle for.
@@ -21,8 +21,8 @@ console.log(array[2])
  * el valor del índice del array que queremos consultar. 
  */
 
-const newArray = ['Andrés','Andrea','Emma','Diego','Allan','Carlos','Dayra']
+const newArray = ['Andrés','Andrea','Emma','Diego','Allan','Carlos','Dayra'];
 
 for (let i=0; i<=6; i++) {
-    console.log(`Este es el elemento ${i}, el cual tiene el valor de ${newArray[i]}`)
-}
+    console.log(`Este es el elemento ${i}, el cual tiene el valor de ${newArray[i]}`);
+};
