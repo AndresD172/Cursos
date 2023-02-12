@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!-- Las tablas nos sirven para mostrar datos al usuario. Es equiparable a las listas, pero nos permiten mostrar más datos de forma ordenada. -->
+
+<!-- Para crear una tabla debemos de utilizar la etiqueta <table></table>. Una tabla se encuentra dividida en 3 partes: La cabecera, el contenido y la parte
+inferior -->
+
+<!-- Para definir la cabecera de una tabla debemos de hacer uso de la etiqueta <thead></thead>. Dentro de la etiqueta thead debemos indicar las filas
+que queremos, usamos la etiqueta <tr></tr> y dentro de la etiqueta ponemos el contenido de cada fila usando la etiqueta <th></th> -->
+
+<!-- Después de definir la cabecera, procedemos a definir el contenido de la tabla con la etiqueta <tbody></tbody>. Después de realizado estos pasos, debemos
+indicar las filas con tr y dentro de tr indicamos el contenido de las filas con la etiqueta <td></td>. -->
+
+<!-- Una cosa importante a tener en cuenta es que la etiqueta <th></th> se utiliza solo en la cabecera, en cambio, la etiqueta <td></td> se utiliza tanto en 
+el cuerpo de la tabla, como también dentro del pie de la tabla. -->
+
+<!-- Para definir un pie de tabla hacemos uso de la etiqueta <tfoot></tfood> y dentro de la etiqueta hacemos uso de las etiquetas tr y td para los definir los
+datos del pie de tabla. -->
+
+<html> 
+  <head>
+    <title> Listas, cabeceras, pie, filas y celdas </title>
+  </head>
+  <body>
+    <!-- Definimos la tabla -->
+    <table>
+      <!-- Definimos la cabecera -->
+      <thead>
+        <!-- Definimos las filas y su contenido -->
+        <tr>
+          <th>Día</th>
+          <th>Mes</th>
+          <th>Año</th>
+        </tr>
+      </thead>
+      <!-- Indicamos el cuerpo de la tabla -->
+      <tbody>
+        <!-- Indicamos las filas y su contenido -->
+        <tr>
+          <td>13</td>
+          <td>Diciembre</td>
+          <td>2006</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>Noviembre</td>
+          <td>2007</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Meses transcurridos:</td>
+          <td>11 meses</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>   
+

@@ -1,0 +1,19 @@
+/* La caja margin lo que hace es desplazar el contenido de una etiqueta. En este caso el margin se aplica solamente a la etiquea body,
+así que nosotros podemos agregar este margin a una etiqueta individual usando una clase donde se defina la propiedad margin. */
+
+/* Los pixeles en CSS son una medida de la caja que nosotros deseamos aplicar a una etiqueta. Esto quiere decir que no tienen que ver 
+con la resolución de la pantalla, si no, con la cantidad de contenido que son capaces de mostrar. Con esto, somos capaces de indicar
+que la caja será de 8 pixeles corridos desde la palabra "hola mundo" hacia la derecha. También va a tener el mismo espacio (8 px) arriba y 
+abajo. */
+
+/* Básicamente lo que hace margin es crear una caja aparte para una etiqueta dentro de la caja superior, osea, el body. */
+
+body{
+    background-color: #efefef;
+}
+
+.caja{
+    margin: 8px;
+    background-color: #97e8ff;   
+}
+

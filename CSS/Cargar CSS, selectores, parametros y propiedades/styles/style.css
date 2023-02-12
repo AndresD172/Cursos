@@ -1,0 +1,34 @@
+/* Los selectores son una instrucción que nos permiten seleccionar las etiquetas de nuestro html. CSS tiene los mismos nombres que la eti-
+queta de HTML, así que si deseamos usar un selector para la etiqueta body de html nada más llamamos al selector body de CSS. */
+
+/* Para usar un selector debemos de definirlo con su nombre y seguidamente abrir y cerrar corchetes. */
+
+/* Para poner un color de fondo en una página web usamos la palabra reservada background-color y seleccionamos el color. El código del co-
+lor está en hexadecimal, pero en VS Code podemos seleccionar el color de una plantilla de colores que nos muestra el propio editor. */
+
+/* Para cambiar el color de un texto dentro de nuestro html usamos la palabra color y le agregamos el color que deseemos ponerle al texto */
+
+/* Además del selector body, CSS tiene algunos otros selectores, entre los cuáles estan los selectores id y class. El selector id nos va a 
+ayudar cuando nosotros queremos darle un identicador único a un elemento html, y las clases (class) nos va a ayudar cuando nosotros queremos
+hacer una composición de estilos sobre un elemento html o también cuando nosotros queremos compartir este estilo a lo largo de varias etiquetas
+html. Los ejemplos están en el documento html. */
+
+/* Los colores los podemos obtener de https://www.color-hex.com/ */
+
+/* Para poder seleccionar un elemento por su id debemos de escribir el id con la sintáxis: #parrafo (o el nombre que le hayamos dado al Id), y 
+para seleccionar una clase usamos una sintáxis similar a como seleccionamos un id, solo que en lugar de usar un #, debemos de usar un punto (.). */
+
+body {
+    background-color: #d2bdbd;
+    /* color:#000000; */
+}
+
+#parrafo {
+    color:#ff0000;
+}
+
+.etiqueta {
+    color:#0000ff;
+}
+
+

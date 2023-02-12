@@ -1,0 +1,78 @@
+/* Margin es un borde que va a estar bordeando el contenido por fuera, en cambio padding lo que hace es bordear ese mismo contenido,
+pero por dentro del margin.  */
+
+/* El border de la caja se encuentra entre el margin y el padding, justamente en el centro de ellos dos. Border puede tener varios
+estilos, entre ellos estan los solid (que representa el border con una linea de un color), el dashed (que represente el border con
+una linea punteada), el dotted (que es una linea punteada con los puntos más pequeños), el double (que muestra unas lineas dobles),
+el groove (que nos muestra unas lineas realzadas, como un efecto 3D en el margen superior), el ridge (hace el mismo efecto que groove,
+solo que el efecto 3D se aplica al margen inferior), el inset (que unde el contenido dentro de un borde pintado) */
+
+/* Una de las propiedades que tiene border es border-width. Esta propiedad nos sirve para poder establecer el ancho de un borde. */
+
+/* En el caso de que nosotros deseemos asignarle la propiedad a un borde en particular podemos usar la propiedad border+(el lugar 
+donde se encuentre la parte a la que deseemos agregar la propiedad). Por ejemplo: border-left, border-right, border-top y border-bottom.
+Con todas estas vamos a poder asignar los estilos, los colores y los anchos por separado. */
+
+.caja_solid{
+    margin: 8px;
+    padding: 8px;
+    border-style: solid;
+    background-color: #97e8ff;
+}
+
+.caja_dashed{
+    margin: 8px;
+    padding: 8px;
+    border-style: dashed;
+    background-color: #9ffe9f;
+}
+
+.caja_dotted{
+    margin: 8px;
+    padding: 8px;
+    border-style: dotted;
+    background-color: #f7ff81;
+}
+
+.caja_double{
+    margin: 8px;
+    padding: 8px;
+    border-style: double;
+    background-color: #8476d6;
+}
+
+.caja_groove{
+    margin: 8px;
+    padding: 8px;
+    border-style: groove;
+    background-color: #ce7f74;
+}
+
+.caja_ridge{
+    margin: 8px;
+    padding: 8px;
+    border-style: ridge;
+    background-color: #ff9a9a;
+}
+
+.caja_inset{
+    margin: 8px;
+    padding: 8px;
+    border-style: inset;
+    background-color: #9affa7;
+}
+
+.caja_width{
+    margin: 8px;
+    padding: 8px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #aaf;
+}
+
+.caja_border{
+    margin: 8px;
+    padding: 8px;
+    border-style: dotted;
+    border-bottom: dotted 2px #000000;
+}

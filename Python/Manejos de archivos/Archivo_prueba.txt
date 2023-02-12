@@ -1,0 +1,7 @@
+Este es un archivo de prueba para la sección de lectura de archivos en Python
+
+Mi nombre es Andrés Darío Chacón Mora, tengo 15 años y eso, no tengo nada interesante que añadir.
+
+Ah si, olvidaba el hecho que ya este año termino la secundaria para pasar a preparatoria
+
+0,1,2,3,4,5,6,7,8,9,10

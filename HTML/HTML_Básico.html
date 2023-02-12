@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<!-- Para iniciar un documento HTML debemos indicar que vamos a usar HTML 5, haciendo esto con la etiqueta <!DOCTYPE html>. -->
+
+<!-- La etiqueta <html></html> nos indica que dentro de ella, nosotros vamos a agregar contenido. Para cerrar las etiquetas, debemos
+escribir </html> al final de todo el código que hemos escrito. -->
+
+<!-- Es importante mantener la identación al momento de escribir nuestro código HTML ya que nos brinda un código limpio y ordenado, que
+será legible tanto para la maquina, como para los demás programadores. -->
+
+<!-- Además de la etiqueta <html></html>, tambien tenemos dos tipos de etiquetas básicas más, estas son: <head></head> y <body></body>.
+La función de la etiqueta <head></head> es la de incrustar archivos de JS, o CSS dentro de nuestros programas, además de darle
+instrucciones necesarias al explorador en caso de ser necesario, el contenido de esta etiqueta no muestra nada nuestro explorador. 
+En cambio, la etiqueta <body></body> nos permite mostrar en el navegador todo lo que escribamos dentro de ella. -->
+
+<!-- Para poder cambiar el título de nuestra página debemos de usar la etiqueta <title></title> dentro de nuestra etiqueta <head></head>-->
+
+<!-- Para crear un título creamos la etiqueta <h1></h1> dentro de nuestro <body></body>, insertando el contenido del título dentro de
+la etiqueta <h1></h1>. HTML nos ofrece 6 tipos de títulos, que se seleccionan cambiando el número que ponemos dentro de nuestra etiqueta. 
+Lo que varia dentro de estos títulos es el hecho de que, al momento de ser mostrados, van cambiando de tamaño dependiendo que número 
+tienen dentro de su etiqueta. -->
+
+<!-- Además de la etiqueta de títulos, tambien contamos con la etiqueta de parrafos, que, como su nombre lo indica, nos permite la 
+creación de parráfos dentro de nuestra página HTML. Para crear un parráfo, simplemente creamos la etiqueta <p></p>. -->
+
+<!-- Por lo general, los títulos del 1 al 4 son utilizados como títulos primario, título secundario y título terciario respectivamente. 
+En cambio, los títulos del 4 al 6 son utilizados como subtitulos por norma general. -->
+
+<!-- Para crear un salto de página, simplemente hemos de poner la etiqueta <br /> dentro de nuestro párrafo. Es muy importante diferenciar entre los saltos de
+linea y los saltos de párrafo, debido a que al momento de crear un salto de párrafo se crea un espacio de un tamaño moderado, mas sin embargo, en el salto de 
+linea este espacio es casi inexistente. -->
+
+<!-- Otra etiqueta que nos ayuda al momento de escribir en nuestro html es la etiqueta <hr>. Esta etiqueta nos crea una linea horizontal que nos divide varios
+contenidos por la mitad. -->
+
+<!-- Para crear texto en negrita, solamente hemos de poner la etiqueta <b></b> y dentro de la etiqueta escribimos lo que deseemos poner el negrita. Aunque esta
+etiqueta no es la única que nos puede ayudar a poner un texto en negrita, ya que la etiqueta <strong></strong> tambien nos puede ayudar a hacer esta misma acción. -->
+
+<!-- Para crear una cita de texto dentro de nuestro párrafo debemos de usar la etiqueta <blockquote></blockquote> y dentro de ella escribir el texto de la 
+etiqueta. -->
+
+<!-- Para poner código de algún lenguaje de programación dentro de nuestro documento HTML debemos de usar la etiqueta <code></code> y escribir
+el código dentro de estas etiquetas. -->
+
+<!-- Para escribir un texto en cursiva, HTML nos ofrece 2 opciónes: La etiqueta de énfasis (<em></em>) y la etiqueta de cursiva (<i></i>). Cualquiera de las dos
+son válidas y para usarlos debemos de escribir el texto que querrámos poner dentro de las etiquetas que hayamos seleccionado. -->
+
+<!-- Para preformatear un texto, tan solo debemos usar la etiqueta <pre></pre> y escribir nuestro texto dentro. -->
+
+<!-- Para tachar un texto, simplemente hemos de utilizar la etiqueta <s></s>. -->
+
+<!-- Para hacer pequeño un texto, simplemente hemos de utilizar la etiqueta <small></small>. -->
+
+<!-- Para subrayar un texto, simplemente usamos la etiqueta <u></u>. -->
+
+<!-- Una etiqueta que nos puede ahorrar mucho trabajo a la hora de dividir un texto usando <br /> y <p></p> es la etiqueta <div></div>. La función de esta 
+etiqueta es realizar los dos pasos de salto de linea en una sola ación. -->
+
+<!-- Para añadir uan imagen favicon al url de nuestra página usamos la etiqueta <link>. Dentro de la etiqueta link debemos de usar la propiedad rel y darle como valor
+"icon". Esto lo que hace es indicar la relación entre la imagen y el HTML, diciendo así que es el favicon de la página. Después de usar la propiedad rel debemos
+indicar el tipo de imagen que es usando la propiedad type, esta propiedad tiene diferentes valores como: image/jpg, image/jpeg, image/x-icon, video/webm, etc.
+En este caso, como es una imagen para un icono, se especifica que la imagen es image/jpg en caso de ser jpg o image/x-icon si es una imagen .ico. Y por último
+se usa la propiedad src para indicar de donde se debe obtener la imagen. -->
+
+<html>
+  <head>
+    <title>Mi primera página :)</title>
+  </head>
+  <body>
+    <!-- Títulos -->
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+    <!-- Párrafos -->
+    <p>Este es un parráfo de prueba, así que podemos escribir cualquier cosa que querrámos, y pues eso, tampoco tiene gran lógica detrás. Ya me quedé
+      sin ideas de que escribir, ¿qué procede ahora? XD.</p>
+    <!-- Salto de linea -->
+    <p>Este es un <br /> salto de linea</p>
+    <!-- División de párrafos -->
+    <p>Párrafo 1</p>
+    <hr>
+    <p>Párrafo 2</p>
+    <!-- Texto en negrita (2 ópciones) -->
+    <p> <b>Este es un texto en negrita</b> </p>
+    <strong>Este es un texto en negrita</strong>
+    <!-- Cita de texto -->
+    <blockquote>Esta es una cita de texto</blockquote>
+    <!-- Código -->
+    <code>import time<br />time.sleep(1) #Este es un ejemplo de código de Python :)<br /> </code>
+    <!-- Texto con énfasis (2 ejemplos) -->
+    <em>Este es un texto en cursiva usando la etiqueta em<br /> </em>
+    <i>Este es un texto en cusriva usando la etiqueta i</i>
+    <!-- Texto preformateado -->
+    <pre>Este es un texto preformateado</pre>
+    <!-- Texto tachado -->
+    <s>Este es un texto tachado</s>
+    <!-- Texto pequeño -->
+    <small><br />Este es un texto pequeño</small>
+    <!-- Texto subrayado -->
+    <u><br />Texto subrayado</u>
+    <!-- Salto de linea con div--> 
+    <div>Salto de linea 1 con div</div> 
+    <div>Salto de linea 2 con div</div> 
+  </body>
+</html>

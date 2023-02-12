@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<!-- El nombre de CSS viene de Cascade Style Sheet. Primero hemos de crear un texto con la etiqueta <p></p> (aunque puede ser cualquier
+otra cosa) y después crear una etiqueta span. -->
+
+<!-- Si nosotros cargamos un código CSS al final de un HTML primero se cargará el HTML y después de cargado el HTML se aplicarán los 
+estilos del CSS, dejando a la vista el contenido HTML. Para evitar esto, debemos de ejecutar el CSS dentro de la etiqueta head de nuestro
+HTML. -->
+
+<!-- Para insertar una etiqueta debemos de usar una etiqueta <link> (al igual que para poner el favicon de la página). Primero hemos de poner
+la propiedad rel junto al valor "stylesheet", después ponemos la propiedad href y dentro del href ponemos como valor "main.css" (o como sea
+que se llame el archivo css) junto con su ruta, y por último ponemos como tipo "text/css" -->
+
+<!-- Para usar un id de CSS nosotros debemos de darle una valor a la etiqueta. Esto lo hacemos usando la propiedad id dentro de la etiqueta
+a la que le queremos dar un id. El id es especificado por nosotros, no está definido por el lenguaje. -->
+
+<!-- Para usar las clases usamos la misma sintáxis que con el id, solo que cambiando "id" por "class". Seguido de esto le indicamos a la clase
+el estilo que le queremos aplicar a la etiqueta. -->
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <title>Cargando CSS, selectores, propiedades y valores</title>
+  </head>
+  <body>
+    <p id="parrafo">Este es un párrafo</p>
+    <br />
+    <span class="etiqueta">Este es un span</span>
+    <br />
+    <span class="etiqueta">Este es otro span</span>
+    <br />
+    <span class="etiqueta">Este es un tercer span</span>
+  </body>
+</html>

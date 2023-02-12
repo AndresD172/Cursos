@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<!-- Para realizar un formulario básico podemos hacer uso de la etiqueta <form></form>. Además de esta etiqueta, debemos de hacer uso de
+la etiqueta <input></input>, que basicamente, nos permite hacer que un usuario ingrese datos que le hayan sido solicitados. -->
+
+<!-- Dentro de la etiqueta input, debemos de darle un tipo a nuestro input. Para hacer esto, nosotros escribimos type dentro de nuestra
+etiqueta input. En general, la etiqueta type nos permite darle propiedades no solo a los inputs, si no que tambien a las demás etiquetas
+con tan solo escribir type= dentro de la etiqueta que queremos darle esta propiedad. Es importante recalcar que las propiedades de una
+etiqueta se tienen que definir en la etiqueta de apertura, no en la de cierre.-->
+
+<!-- El input tiene múltiples propiedades que se le pueden asignar con nuestra sub-etiqueta type. Estas propiedades son:
+1- Button (Botón. Con la propiedad value podemos cambiar el contenido del texto dentro del botón. )
+2- Checkbox (Marcado con check)
+3- Color (Selección de color en escala RGB)
+5- Datetime (Fecha y hora)
+6- Email (Ingreso de dirección electronica)
+7- File (Subida de archivos)
+8- Month (Selección de mes)
+9- Number (Selección de número)
+10- Password (Ingreso de contraseña. Sustituye los carácteres por puntos negros)
+11- Submit (Muestra un botón de enviar)
+12- Text (Crea un cuadro de ingreso de texto)
+Y algunas otras que no son listadas acá. -->
+
+<!-- La etiqueta <textarea></textarea> nos permite crear un cuadro de ingreso de datos que sea redimensionable, o mejor dicho, que sea ajustado para poder 
+ingresar más texto que el que nos permite ingresar la propiedad text. -->
+
+<!-- La etiqueta buttom, como nos indica su nombre, nos permite crear un botón que ejecute una acción dada. Esta etiqueta nos permite, al igual de la
+propiedad button, mostrar cualquier texto que nosotros deseemos dentro de un botón, permitiendo así especificar que acción ejecutará este botón. -->
+
+<!-- Otra etiqueta que nos permite crear listas con elementos seleccionables es la etiqueta <select></select>. Para agregar elementos a esta lista lo que
+debemos hacer es: 
+Paso 1: Crear la etiqueta select.
+Paso 2: Crear la etiqueta <option></option> dentro de nuestro select.
+Paso 3: Ingresar el valor que tendrá el elemento cuando sea seleccionado en las propiedades de la etiqueta <option>.
+Para ello tendremos que indicarle el valor con la propiedad value.
+Paso 4: Ingresar las opciónes a seleccionar dentro de nuestro option.
+
+Cuando nosotros enviemos a guardar nuestro select, el sistema no guardará el valor de las opciónes, si no que, guardará el valor que le hayamos indicado con
+nuestro value. -->
+
+<!-- En nuestros formularios también podemos usar la etiqueta <fieldset></fieldset> para agrupar todos nuestros elementos dentro de nuestro HTML. -->
+
+<!-- Para poder colocarle un título a un fieldset podemos hacer uso de la etiqueta <legend></legend>. -->
+
+<!-- Si nosotros deseamos asignarle un nombre o una indicación a nuestro campo del formulario, simplemente hemos de utilizar la etiqueta <label></label>-->
+
+<!-- Para añadir un texto dentro de un input o un input del tipo number, hemos de hacer uso de la propiedad placeholder junto a la etiqueta que vayamos 
+a utilizar. -->
+
+<html>
+  <head>
+      <title> Formulario basico </title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Fieldset</legend>
+      <form>
+        <!-- Input -->
+        <label>Input de tipo text y tipo button (label)</label>
+        <input type="text" placeholder="Text (placeholder)"/>
+        <input type="button" value="Botón"/>
+        <br />
+        <label>Number (label)</label>
+        <input type="number" placeholder="Number (placeholder)" />
+        <!-- Textarea -->
+        <br />
+        <label>Textarea (label)</label>
+        <textarea></textarea>
+        <!-- Button -->
+        <br />
+        <label>Button (label)</label>
+        <button>Seleccionar</button>
+        <!-- Select -->
+        <br />
+        <label>Select (label)</label>
+        <select>
+          <option value="1">Opción 1</option>
+          <option value="2">Opción 2</option>
+          <option value="3">Opción 3</option>
+          <option value="4">Opción 4</option>
+        </select>
+      </form>
+    </fieldset>
+  </body>
+</html>

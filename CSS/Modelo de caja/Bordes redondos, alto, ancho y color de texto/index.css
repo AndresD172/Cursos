@@ -1,0 +1,24 @@
+/* La propiedad border-radius nos permite redondear los bordes de una etiqueta. Para aumenta la curvatura del borde lo que debemos hacer es ir
+aumentando la cantidad de píxeles que le añadamos al radio.*/
+
+/* Si nosotros queremos añadir un tamaño fijo a nuestra caja, debemos de usar la propiedad width en caso de que deseemos que sea de un ancho en
+específico. En el caso que deseemos que sea de un alto específico, podemos usar la propiedad height. */
+
+.border_radius{
+    margin: 8px;
+    padding: 8px;
+    border-style: dotted;
+    border-radius: 25px;
+    /* border-radius: 15px; */
+    /* border-radius: 35px; */
+    /* border-radius: 4px; */
+}
+
+.border_width{
+    margin: 8px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #afa;
+    width: auto;
+    height: auto;
+}
