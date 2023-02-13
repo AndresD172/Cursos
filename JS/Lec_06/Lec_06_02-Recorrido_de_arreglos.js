@@ -23,6 +23,6 @@ console.log(array[2]);
 
 const newArray = ['Andrés','Andrea','Emma','Diego','Allan','Carlos','Dayra'];
 
-for (let i=0; i<=6; i++) {
+for (let i = 0; i < newArray.length; i++) {
     console.log(`Este es el elemento ${i}, el cual tiene el valor de ${newArray[i]}`);
 };
